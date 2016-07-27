@@ -5,6 +5,10 @@
 	padding: 0px;
 }
 
+body	{
+	font-family: arial;
+}
+
 header	{
 	background-color: #333333;
 	padding: 20px;
@@ -16,7 +20,6 @@ header nav	{
 	overflow: hidden;
 	display: inline-block;
 	float: right;
-
 }
 
 header nav ul{
@@ -32,26 +35,29 @@ header nav ul li{
 
 h2	{
 	display: inline-block;
-}
-
-img	{
-	max-width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: black;
 }
 
 .logotipo	{
 	display: inline;
 }
 
+.principal	{
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #ADADAD;
+	font-weight: bold;
+	color: #406D9E;
+}
+
+.secundario	{
+	margin-top: 50px;
+}
 .container {
 	padding-left: 14px; 
 	padding-right: 14px;
-	background-color: #EEEEEE;
-}
-
-.container-2 {
-	margin-top: 55px;
-	padding-left: 20px;
-	position: relative;
+	color: #406D9E;
 }
 
 .row {
@@ -92,4 +98,40 @@ img	{
 .col-2 {
 	/* (2 / 12) x 100 */
 	width: 16.666667%;
+	max-width: 13.5%;
+}
+
+.col-2 img	{
+	padding: 3px;
+	background-color: white;
+	border: 1px solid #ADADAD;
+}
+
+.col-1 {
+	/* (1 / 12) x 100 */
+	width: 8.333333%;
+} 
+
+footer	{
+	background-color: #333333;
+	height: 200px;
+	color: white;
+	line-height: 10px;
+	padding: 15px;
+}
+
+footer nav	{
+	display: inline-block;
+}
+
+footer nav ul{
+	list-style: none;
+	padding-top: 40px;
+}
+
+footer nav ul li{
+	padding: 10px;
+	display: inline;
+	line-height: 50px;
+
 }
