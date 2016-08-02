@@ -8,42 +8,66 @@
 body	{
 	font-family: arial;
 	color: #406D9E;
-
 }
 
-header	{
-	background-color: #333333;
-	padding: 20px;
-	color: white;
+a {
+	color: #369;
+	  text-decoration: none;
 }
 
-header nav	{
-	background-color: #333333;
-	overflow: hidden;
-	display: inline-block;
+a:hover {
+  color: #900;
+}
+
+header {
+  padding: 15px 0;
+  margin: 0;
+  color: #fff;
+  border-bottom: solid #333 1px;
+  background: #333;
+}
+
+.logo {
+	width: 80px;
+	height: 80px;
+	margin-left: 100%;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-top: 34px;
+	margin: 0 -15px 0 0;
 	float: right;
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
-header nav ul{
-	list-style: none;
-	padding-top: 40px;
+nav li {
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;	
 }
 
-header nav ul li{
-	padding: 10px 20px;
-	display: inline;
-	line-height: 50px;
+nav li:hover a {
+	background: #585858;
 }
 
-h2	{
-	display: inline-block;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: black;
+nav a {
+	text-decoration: none;
+  	padding: 10px 15px;
+  	color: #eee;
+  	text-shadow: 2px 2px 4px #000;
 }
 
-.logotipo	{
-	display: inline;
+nav a:hover {
+	color: #fff;
+}
+
+.col-10 {
+    width: 83.333333%;
 }
 
 .principal	{
@@ -102,7 +126,7 @@ h2	{
 	max-width: 13.5%;
 }
 
-.col-2 img	{
+.secundario.col-2 img	{
 	padding: 3px;
 	background-color: white;
 	border: 1px solid #ADADAD;
